@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 2000px;
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper_chitiet{
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.hinhanh_bh{
+    float: left;
+    width: 50%;
+}
+.chitiet_bh{
+    float: left;
+}
+.header{
+    background-image: url("../images/banner_baohiem1.jpg");
+    background-repeat: no-repeat;
+   
+    height: 28%;
+    width: 100%;
+}
+.menu{
+    height: 2.5%;
+    width: 100%;
+    background-color: #000080;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+ul.list-menu{
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    width: auto;
+    line-height: auto;
+}
+ul.list-menu li{
+    float: left;
+    margin: 7px;
+    padding:7px;
+    background-color: #FFD700;
+    border-radius: 5px;
+}
+ul.list-menu li:hover{
+    opacity: 0.8;
+}
+ul.list-menu li a{
+    text-decoration: none;
+    text-align: center;
+    color:#B22222 ;
+}
+#main{
+    height: auto;
+    width: 100%;
+}
+.sidebar{
+    height: 50%;
+    width: 15%;
+    margin-top: 5px;
+    float: left;
+    background-color: #FFF0F5;
+}
+ul.list-sidebar{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+
+}
+ul.list-sidebar li{
+    margin: 7px;
+    padding:7px;
+    border-radius: 5px;
+}
+ul.list-sidebar li:hover{
+    background-color: #FFD700;
+    opacity: 0.8;
+}
+ul.list-sidebar li a{
+    text-decoration: none;
+    text-align: center;
+    color:#B22222 ;
+}
+.maincontent{
+    background-color: #FDF5E6;
+    height: 99%;
+    width: 84.5%;
+    margin-top: 5px;
+    float: right;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+ul.list-pro{
+    padding: 5px 40px;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+
+}
+ul.list-pro li{
+    width: 30%;
+    height: 350px;
+    border: 1px dashed #FFD700;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+    background-color:#000080;
+}
+ul.list-pro li:hover{
+    opacity: 0.8;
+}
+ul.list-pro li img{
+    width: 100%;
+    height: 65%;
+}
+ul.list-pro li p{
+    text-decoration: none;
+    text-align: center;
+    color:#FFD700 ;
+}
+
+.footer{
+   background-color:#FFF5EE ;
+    height: 4.75%;
+    width: 100%;
+}
+.footer p{
+    text-align: center;
+    color: #B22222;
+    padding: 38px;
+    font-style: italic;
+}
+.clear{
+    clear: both;    
+}
+input[type=text],input[type=password],input[type=date],input[type=email],select {
+    border-radius: 5px;
+    width:97% ;
+    height: 20px;
+    background-color: #DCDCDC;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  input[type=button], input[type=submit], input[type=reset]{
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+  input[type=submit]:hover{
+    opacity: 0.7;
+  }
+  input[type=button]:hover{
+    opacity: 0.7;
+  }
+  table{
+    width: 100%;        
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-top: 1px solid #dee2e6;
+}
+    tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+table {
+    table-layout: fixed;
+    width: 200px;
+    margin-left: auto;
+    margin-right:auto ;
+  }
+  
+  th,
+  td {
+    width: 120px;
+    overflow: hidden;
+  }
+  .tb-giohang th, td{
+    text-align: center;
+  }
+  i.fa-solid{
+    color:#4CAF50 ;
+  }
+  i.fa-solid:hover{
+    opacity:0.8;
+  }
+  .submit-button,.account-button {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    /* Các thuộc tính CSS khác */
+  }
+  input[type="date"] {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Tuỳ chỉnh kích thước */
+  input[type="date"] {
+    width: 200px;
+    height: 30px;
+  }
+  .menu-search{
+    display: block;
+    float: right;
+
+  }
+  .menu-account{
+    float: right;
+  }
+ .thong-tin-khach-hang{
+    font-style: italic;
+ }
+  
